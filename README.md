@@ -1,1 +1,1 @@
-# compound-interest
+### A simple compound interest calculator simulation that takes a random average interest rate.
