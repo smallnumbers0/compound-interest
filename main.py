@@ -63,4 +63,6 @@ def print_results(results):
     max_total = max(results)
     print("The higher end of this investment: ${:.2f}".format(max_total))
     print("The lower end of this investment: ${:.2f}".format(min_total))
-print_results(run_calculations(100))
+
+num_simulations = input("Enter the number of simulations to run: ")
+print_results(run_calculations(num_simulations))
