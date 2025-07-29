@@ -4,7 +4,7 @@ import random
 def get_initial_amount():
     while True:
         amount = input("Enter your initial amount. Please round to nearest integer: $")
-        if amount.isdigit() and int(amount) > 0:
+        if amount.isdigit() and int(amount) >= 0:
             break
         else:
             print("Please enter a positive integer.")
